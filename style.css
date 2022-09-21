@@ -171,6 +171,9 @@ footer{
 
 .fa-brands{
     color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 1.3rem;
 }
 
 .company-info{
