@@ -6,7 +6,7 @@
 
 html{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header{
@@ -15,6 +15,12 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.mini-container{
+    display: flex;
+    justify-content: center;
+    width: 30%;
 }
 
 .categories{
@@ -38,6 +44,7 @@ header{
     color: white;
     height: 30px;
 
+
 }
 
 .shopping-tools{
@@ -52,4 +59,64 @@ header{
 .tool-icon{
     text-decoration: none;
     color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px;
+}
+
+.product{
+    margin: 10px;
+    position: relative;
+}
+
+.photo{
+    width: 300px;
+}
+
+.labels{
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.sale-value{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sustainability{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+.brand-name{
+    color: grey;
+}
+
+.price{
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.saled-price{
+    color: red;
 }
