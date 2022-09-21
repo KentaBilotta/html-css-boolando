@@ -43,8 +43,6 @@ header{
 .logo-img{
     color: white;
     height: 30px;
-
-
 }
 
 .shopping-tools{
@@ -53,7 +51,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .tool-icon{
@@ -74,11 +71,25 @@ main{
 }
 
 .product{
-    margin: 10px;
     position: relative;
+    margin: 10px;
+    margin-bottom: 30px;
+
 }
 
 .photo{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.photo:hover{
+    opacity: 0;
+}
+
+.hover-photo{
     width: 300px;
 }
 
@@ -86,6 +97,23 @@ main{
     position: absolute;
     left: 0;
     bottom: 120px;
+}
+
+.like{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.like:hover{
+    color: red;
 }
 
 .sale-value{
@@ -106,6 +134,10 @@ main{
     width: 100px;
     text-align: center;
     padding: 5px;
+}
+
+.name{
+    font-size: 1.2rem;
 }
 
 .brand-name{
